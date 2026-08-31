@@ -1062,6 +1062,145 @@
 
     /* --- RESPONSIVE BREAKPOINTS (fine-tuned) --- */
 
+    /* Mobile First - Extra Small Screens */
+    @media (max-width: 480px) {
+      .container {
+        width: min(calc(100% - 20px), var(--max));
+      }
+      .section {
+        padding: 50px 0;
+      }
+      .hero {
+        padding: 100px 0 20px;
+        min-height: 90svh;
+      }
+      .hero h1 {
+        font-size: clamp(36px, 12vw, 60px);
+        margin: 12px 0 16px;
+      }
+      .hero-bottom {
+        gap: 16px;
+      }
+      .hero-desc {
+        font-size: clamp(12px, 3vw, 14px);
+      }
+      .hero-actions {
+        gap: 8px;
+        margin-top: 12px;
+      }
+      .hero-cta {
+        padding: 10px 16px;
+        font-size: clamp(10px, 2.5vw, 12px);
+      }
+      .section-title {
+        font-size: clamp(30px, 8vw, 50px);
+      }
+      .section-head {
+        gap: 12px;
+        margin-bottom: 30px;
+      }
+      .section-note {
+        font-size: clamp(11px, 2.5vw, 13px);
+        max-width: 100%;
+      }
+      .about-statement {
+        font-size: clamp(28px, 8vw, 50px);
+      }
+      .about-lower {
+        gap: 24px;
+        margin-top: 30px;
+      }
+      .about-copy {
+        font-size: clamp(12px, 2.5vw, 14px);
+      }
+      .details-title {
+        font-size: clamp(30px, 8vw, 50px);
+        margin-bottom: 30px;
+      }
+      .final-cta {
+        min-height: 60svh;
+        padding: 30px 0;
+      }
+      .final-cta h2 {
+        font-size: clamp(30px, 10vw, 60px);
+        margin: 16px auto 24px;
+      }
+      .footer-name {
+        font-size: clamp(30px, 10vw, 60px);
+      }
+      .footer-meta {
+        font-size: clamp(9px, 2vw, 11px);
+      }
+      .work-grid {
+        gap: 20px 12px;
+      }
+      .project-info h3 {
+        font-size: clamp(16px, 4vw, 22px);
+      }
+      .filter-btn {
+        font-size: clamp(8px, 2vw, 10px);
+        padding: 0 0 8px;
+      }
+      .filters {
+        gap: 12px;
+        margin-bottom: 24px;
+      }
+      .service h3 {
+        font-size: clamp(16px, 4vw, 28px);
+      }
+      .service {
+        padding: 16px 0;
+        gap: 10px;
+      }
+      .detail {
+        padding: 16px 12px 14px 0;
+        min-height: 100px;
+      }
+      .detail h3 {
+        font-size: clamp(16px, 4vw, 24px);
+      }
+      .detail p {
+        font-size: clamp(10px, 2vw, 12px);
+      }
+      .step h3 {
+        font-size: clamp(18px, 4vw, 26px);
+      }
+      .step p {
+        font-size: clamp(10px, 2vw, 12px);
+      }
+      .process {
+        gap: 24px 16px;
+      }
+      .footer-top {
+        gap: 12px;
+        padding-bottom: 24px;
+      }
+      .footer-nav {
+        gap: 12px;
+        padding: 14px 0;
+      }
+      .footer-links {
+        gap: 12px;
+      }
+      .social-icon {
+        width: 34px;
+        height: 34px;
+      }
+      .modal-inner {
+        max-height: 90vh;
+      }
+      .modal-media {
+        max-height: 50vh;
+      }
+      .modal-caption h3 {
+        font-size: clamp(16px, 4vw, 22px);
+      }
+      .availability {
+        font-size: clamp(8px, 2vw, 10px);
+        margin-top: 8px;
+      }
+    }
+
     /* Tablets & small laptops */
     @media (min-width: 600px) {
       .work-grid {
@@ -1427,6 +1566,17 @@
             </div>
             <div class="project-label"><span>FASHION AD</span><span>PERSONAL</span></div>
           </article>
+<!-- Project: SPIDERMAN - SHORT FORM -->
+<article class="project reveal" data-category="shortform" data-title="SPIDERMAN EDIT" data-meta="SHORT-FORM EDIT — PERSONAL PROJECT" data-type="video" data-src="Spiderman .MP4">
+  <div class="media portrait">
+    <video src="Spiderman .MP4" muted loop autoplay playsinline preload="metadata"></video>
+    <div class="project-overlay">
+      <div class="project-top"><span class="meta">07 / SHORT-FORM</span><span class="play"></span></div>
+      <div class="project-info"><h3>SPIDERMAN EDIT</h3><span class="meta">Action Edit</span></div>
+    </div>
+  </div>
+  <div class="project-label"><span>SHORT-FORM</span><span>PERSONAL</span></div>
+</article>
         </div>
       </div>
     </section>
